@@ -31,7 +31,7 @@ This is the source code for my personal blog built with [Hugo](https://gohugo.io
 Run the following to generate a production build:
 
 ```bash
-hugo --minify
+hugo --gc --cleanDestinationDir --minify
 ```
 
 The output will be in the `public/` folder. You can deploy this to GitHub Pages, Netlify, Vercel, or any static hosting provider.

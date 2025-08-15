@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Productivity on Vijay&#39;s Blog</title>
+    <link>http://localhost:1313/blog/productivity/</link>
+    <description>Recent content in Productivity on Vijay&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 09 Aug 2025 15:19:14 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mini project - Weekly work tracker</title>
+      <link>http://localhost:1313/weekly-progress-tracker/</link>
+      <pubDate>Sat, 09 Aug 2025 15:19:14 +0530</pubDate>
+      <guid>http://localhost:1313/weekly-progress-tracker/</guid>
+      <description>&lt;p&gt;So… I finally built something I actually wanted — a Weekly Work Tracker for personal use.&lt;/p&gt;&#xA;&lt;img src=&#34;https://github.com/user-attachments/assets/95407c6c-14c6-40e7-8986-87029d333a6b&#34; /&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been toying with this idea of building software for personal use for quite sometime now, but couldn&amp;rsquo;t gather enough motivation to actually go and execute. Until yesterday. That&amp;rsquo;s when i tried claude.ai—and, oh bwoy, it&amp;rsquo;s freaking amazinggg!!&lt;/p&gt;&#xA;&lt;p&gt;I vibe coded an entire app in almost a single prompt.&lt;/p&gt;&#xA;&lt;p&gt;So actually my motivation was to generate a notion template to track my weekly todos (i have recently developed a habit of keeping a paper on my desk and noting a few tasks for the day and knocking them off —needed something similar digitally). But notion AI did a really poor job of realising my dream, so with lots of hope, i then went to chatgpt4, and asked it to materialize my vision. It was disappointing too, I wasn&amp;rsquo;t impressed by the results.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

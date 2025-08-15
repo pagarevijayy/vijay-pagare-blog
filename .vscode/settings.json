@@ -1,0 +1,25 @@
+{
+  // Disable global format on save if you want full control
+  "editor.formatOnSave": true,
+
+  // Disable format on save for Hugo HTML templates
+  "[html]": {
+    "editor.formatOnSave": false
+  },
+
+  // Optional: keep normal formatting for other file types
+  "[css]": {
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+
+  // Prettier settings (if installed)
+  "prettier.disableLanguages": ["html"],
+
+  // Optional: exclude Hugo layout folders from Prettier
+  "files.exclude": {
+    "**/layouts/**": false
+  }
+}

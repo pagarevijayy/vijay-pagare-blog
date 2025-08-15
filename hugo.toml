@@ -1,8 +1,8 @@
 # Base URL used when generating links to your pages
 # Set to the URL for your site
-baseURL = "http://localhost:1313/"
-
-# baseURL = "https://vijaypagare.in"
+baseURL = "/"
+canonifyURLs = false
+relativeURLs = true
 
 # The name of this wonderful theme ;-).
 theme = 'hugo-bearblog'

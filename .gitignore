@@ -34,3 +34,23 @@ yarn-error.log*
 .vercel
 
 public/sitemap.xml
+
+# Hugo build output
+/public/
+
+# Local development files
+/resources/_gen/
+hugo_stats.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Node modules (if you add npm-based tooling later)
+node_modules/
+
+# Logs
+*.log
+
+# Vercel local settings (not needed in repo)
+.vercel/

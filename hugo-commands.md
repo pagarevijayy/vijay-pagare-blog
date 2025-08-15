@@ -30,6 +30,9 @@ hugo --cleanDestinationDir
 
 # Build the site with minified output
 hugo --minify
+
+# Build the site after garbage collection (clean up unused generated files).
+hugo --gc
 ```
 
 ## 📦 Building for Production
@@ -40,6 +43,9 @@ hugo
 
 # Build the site with drafts disabled and output minified
 hugo --minify
+
+# Build optimised
+hugo --gc --cleanDestinationDir --minify
 ```
 
 ## 🏷️ Helpful Flags

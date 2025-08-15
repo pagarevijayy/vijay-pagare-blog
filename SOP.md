@@ -8,7 +8,7 @@ This document outlines the standard process for writing, previewing, and deployi
 - Hugo is installed locally.
 - `/public` is in `.gitignore`.
 - Vercel project is linked to your GitHub repo.
-- Vercel build command: `hugo --minify`
+- Vercel build command: `hugo --gc --cleanDestinationDir --minify`
 - Vercel output directory: `public`
 
 ---

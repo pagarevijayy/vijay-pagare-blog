@@ -36,6 +36,19 @@ hugo --gc --cleanDestinationDir --minify
 
 The output will be in the `public/` folder. You can deploy this to GitHub Pages, Netlify, Vercel, or any static hosting provider.
 
+**Vercel Deployment**
+
+```
+# Important
+
+For the Vercel build to succeed, you must set an environment variable
+named HUGO_VERSION in your Vercel project settings.  
+
+This value should exactly match the Hugo version you use locally.
+
+Example:
+HUGO_VERSION = 0.148.2
+```
 ## 📄 License
 
 This project is released under the MIT License.

@@ -61,5 +61,7 @@ This document outlines the standard process for writing, previewing, and deployi
 
 ## 6. Hugo Version Synchronization
 
-- Upgrade Hugo in brew and vercel.json together, then test locally before deploy. (Best practice: match vercel's build time hugo version with your local.)
+- For the Vercel build to succeed, you must set an environment variable named HUGO_VERSION in your Vercel project settings.  
+- This value should exactly match the Hugo version you use locally.
+- Example: HUGO_VERSION = 0.148.2
 ---

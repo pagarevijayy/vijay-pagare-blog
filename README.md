@@ -1,6 +1,6 @@
 # Vijay Pagare's Blog
 
-This is the source code for my personal blog built with [Hugo](https://gohugo.io) and the [Hugo Bear Blog theme](https://github.com/janraasch/hugo-bearblog).
+This is the source code for my personal blog built with [Hugo](https://gohugo.io) and the [Hugo Bear Blog theme](https://github.com/janraasch/hugo-bearblog). Hosted on [GitHub Pages](https://github.com/pagarevijayy/vijay-pagare-blog).
 
 ## 🚀 Features
 
@@ -13,8 +13,8 @@ This is the source code for my personal blog built with [Hugo](https://gohugo.io
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/USERNAME/REPO.git
-   cd REPO
+   git clone https://github.com/pagarevijayy/vijay-pagare-blog.git
+   cd vijay-pagare-blog
    ```
 
 2. **Install Hugo**  

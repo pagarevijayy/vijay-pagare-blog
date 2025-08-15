@@ -59,4 +59,7 @@ This document outlines the standard process for writing, previewing, and deployi
 - Preview with `hugo server -D`.
 - Commit & push — Vercel redeploys automatically.
 
+## 6. Hugo Version Synchronization
+
+- Upgrade Hugo in brew and vercel.json together, then test locally before deploy. (Best practice: match vercel's build time hugo version with your local.)
 ---

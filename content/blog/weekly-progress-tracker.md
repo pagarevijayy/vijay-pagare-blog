@@ -3,7 +3,7 @@ title = "Mini project - Weekly work tracker"
 slug = "weekly-progress-tracker"
 date = "2025-08-09T15:19:14+05:30"
 description = "Weekly progress tracker – local-first, privacy-friendly app to stay consistent, productive, and goal-oriented, with data stored in your browser."
-meta_image = "https://x.com/pagarevijayy/status/1953937367431086480/photo/1"
+featured_image = "https://x.com/pagarevijayy/status/1953937367431086480/photo/1"
 tags = ["productivity"]
 +++
 

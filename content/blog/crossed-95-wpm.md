@@ -3,7 +3,7 @@ title = "Crossed 95 wpm for the first time ever!"
 slug = "crossed-95-wpm"
 date = "2025-08-07T09:40:10+05:30"
 description = "Crossed 95 wpm for the first time. Here are the 3 things i learnt..."
-meta_image = "https://media.istockphoto.com/id/1335037574/photo/close-up-of-female-hands-typing-on-keyboard.jpg?s=612x612&w=0&k=20&c=rzDso1FEi8AmzPRuyN9kGFOKrFQlQCnoCrkp6-hkrQ8="
+featured_image = "https://media.istockphoto.com/id/1335037574/photo/close-up-of-female-hands-typing-on-keyboard.jpg?s=612x612&w=0&k=20&c=rzDso1FEi8AmzPRuyN9kGFOKrFQlQCnoCrkp6-hkrQ8="
 +++
 
 So i recently crossed [95 wpm typing speed](tab:https://x.com/pagarevijayy/status/1953101515276914711). 

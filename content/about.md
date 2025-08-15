@@ -1,7 +1,7 @@
 +++
 title = "About Me"
 description = "This is about me section of Vijay Pagare, who is a senior software engineer with a wide range of interests (from tech to spirituality to fitness to blogging and beyond...)"
-meta_image = "https://x.com/pagarevijayy/photo"
+featured_image = "https://x.com/pagarevijayy/photo"
 date = 2025-08-07
 +++
 

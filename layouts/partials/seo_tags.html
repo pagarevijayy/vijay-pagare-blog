@@ -1,0 +1,48 @@
+<!-- Primary Meta Tags -->
+<meta name="title" content="{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}">
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+<meta name="keywords" content="{{ if .IsPage }}{{ range $index, $tag := .Params.tags }}{{ $tag }},{{ end }}{{ else }}{{ range $plural, $terms := .Site.Taxonomies }}{{ range $term, $val := $terms }}{{ printf "%s," $term }}{{ end }}{{ end }}{{ end }}">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="{{ .Permalink }}">
+
+<!-- Open Graph / Facebook -->
+{{ $ogTitle := .Title }}
+{{ if not $ogTitle }}
+{{ $ogTitle = .Site.Title }}
+{{ end }}
+
+{{ $ogDesc := .Description }}
+{{ if not $ogDesc }}
+{{ if .IsPage }}
+{{ $ogDesc = .Summary }}
+{{ else }}
+{{ $ogDesc = .Site.Params.description }}
+{{ end }}
+{{ end }}
+
+{{ $ogImage := .Params.featured_image }}
+{{ if not $ogImage }}
+{{ $ogImage = "images/share.png" }}
+{{ end }}
+
+<meta property="og:title" content="{{ $ogTitle }}">
+<meta property="og:description" content="{{ $ogDesc }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:image" content="{{ $ogImage | absURL }}">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $ogTitle }}">
+<meta name="twitter:description" content="{{ $ogDesc }}">
+<meta name="twitter:image" content="{{ $ogImage | absURL }}">
+
+<!-- Microdata / Schema -->
+<meta itemprop="name" content="{{ $ogTitle }}">
+<meta itemprop="description" content="{{ $ogDesc }}">
+<meta itemprop="datePublished" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+<meta itemprop="dateModified" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">
+<meta itemprop="image" content="{{ $ogImage | absURL }}">

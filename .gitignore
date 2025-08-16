@@ -41,6 +41,7 @@ public/sitemap.xml
 # Local development files
 /resources/_gen/
 hugo_stats.json
+.hugo_build.lock
 
 # OS-specific files
 .DS_Store

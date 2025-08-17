@@ -1,8 +1,53 @@
 {
   "redirects": [
     {
-      "source": "/newsletter",
+      "source": "/(newsletter|substack)/:path*",
       "destination": "https://pagarevijayy.substack.com",
+      "permanent": true
+    },
+    {
+      "source": "/medium/:path*",
+      "destination": "https://pagarevijayy.medium.com",
+      "permanent": true
+    },
+    {
+      "source": "/devto/:path*",
+      "destination": "https://dev.to/pagarevijayy",
+      "permanent": true
+    },
+    {
+      "source": "/linkedin/:path*",
+      "destination": "https://www.linkedin.com/in/pagarevijayy",
+      "permanent": true
+    },
+    {
+      "source": "/(twitter|x)/:path*",
+      "destination": "https://x.com/pagarevijayy",
+      "permanent": true
+    },
+    {
+      "source": "/resume",
+      "destination": "https://drive.google.com/file/d/1bjBUq-cQioGBG_WsJxCNhtvKrGQieHrr/view",
+      "permanent": false
+    },
+    {
+      "source": "/(github|code)/:path*",
+      "destination": "https://github.com/pagarevijayy",
+      "permanent": true
+    },
+    {
+      "source": "/ph/:path*",
+      "destination": "https://www.producthunt.com/@pagarevijayy",
+      "permanent": true
+    },
+    {
+      "source": "/gumroad",
+      "destination": "https://pagarevijayy.gumroad.com",
+      "permanent": true
+    },
+    {
+      "source": "/support",
+      "destination": "https://pagarevijayy.gumroad.com/coffee",
       "permanent": true
     }
   ]

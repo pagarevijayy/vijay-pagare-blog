@@ -1,6 +1,6 @@
-# Vijay Pagare's Blog
+# Vijay Pagare
 
-This is the source code for my personal blog built with [Hugo](https://gohugo.io) and the [Hugo Bear Blog theme](https://github.com/janraasch/hugo-bearblog). Hosted on [GitHub Pages](https://github.com/pagarevijayy/vijay-pagare-blog).
+This is the source code for my personal website/blog built with [Hugo](https://gohugo.io) and the [Hugo Bear Blog theme](https://github.com/janraasch/hugo-bearblog). Hosted on [GitHub Pages](https://github.com/pagarevijayy/vijay-pagare-blog).
 
 ## 🚀 Features
 

@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/newsletter",
+      "destination": "https://pagarevijayy.substack.com",
+      "permanent": true
+    }
+  ]
+}

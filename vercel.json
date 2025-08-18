@@ -54,6 +54,11 @@
       "source": "/support",
       "destination": "https://pagarevijayy.gumroad.com/coffee",
       "permanent": true
+    },
+    {
+      "source": "/app/weekly",
+      "destination": "https://weekly-work-tracker.vercel.app/",
+      "permanent": true
     }
   ]
 }

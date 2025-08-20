@@ -87,9 +87,7 @@ ignoreErrors = ["error-disable-taxonomy"]
     name = "Blog"
     url = "/blog/"
     weight = 30
-
-  # [[menu.main]]
-  #   name = "Support"
-  #   url = "https://pagarevijayy.gumroad.com"
-  #   weight = 40
-  #   params = { external = true }
+  [[menu.main]]
+    name = "Links"
+    url = "/links/"
+    weight = 40

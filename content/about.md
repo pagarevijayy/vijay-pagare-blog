@@ -5,9 +5,9 @@ featured_image = "images/vijay-pagare-connect.png"
 date = 2025-08-07
 +++
 
-Heya 👋 I’m Vijay Pagare—software engineer, tinkerer, and lifelong learner.
+Heya 👋 I’m Vijay Pagare—a senior software engineer, writer, and wannabe creator. 
 
-I create and curate content, tools, and ideas to make the internet more useful, inspiring, and fun. I've been in tech as a Software Engineer since 2019. Outside tech, my passion lies in sports, spirituality, blogging, and riding motorcycle. 
+I build stuff and create content to make internet more useful, inspiring, and fun place. I love experimenting and mostly do one shot writing. Outside tech, my interest lies in sports, spirituality, and travel.
 
 #### Linkedin Introduction:
 

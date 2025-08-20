@@ -57,3 +57,7 @@ hugo --gc --cleanDestinationDir --minify
 --themesDir            # Specify the themes directory
 --source               # Specify an alternate source directory
 ```
+
+## 📄 Other Stuff
+
+1. [Markdown](https://www.markdownguide.org/) - [basic syntax guide](https://www.markdownguide.org/basic-syntax/), [cheat sheet](https://www.markdownguide.org/cheat-sheet/)

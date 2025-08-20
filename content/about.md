@@ -20,5 +20,5 @@ Proven track record of driving UI/UX enhancements, architectural overhauls, and 
 
 
 <section style="font-size:0.9rem; color:#888;">
-  Shoutout — This site is inspired by <a style="color: unset;" href="https://bearblog.dev" target="_blank" rel="noopener">Bearblog</a> and built using the <a style="color: unset;" href="https://themes.gohugo.io/themes/hugo-bearblog/" target="_blank" rel="noopener">Hugo Bear</a> theme.
+  Shoutout to <a style="color: unset;" href="https://bearblog.dev" target="_blank" rel="noopener">Bearblog</a> and <a style="color: unset;" href="https://themes.gohugo.io/themes/hugo-bearblog/" target="_blank" rel="noopener">Hugo Bear theme</a> for inspiration.
 </section>

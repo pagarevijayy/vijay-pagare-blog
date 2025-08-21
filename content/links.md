@@ -1,7 +1,7 @@
 +++
 date = '2025-08-20T23:51:39+05:30'
+description = "Useful links on Vijay's website."
 title = 'Links'
-tags = []
 slug = "links"
 +++
 

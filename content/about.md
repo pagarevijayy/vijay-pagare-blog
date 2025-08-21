@@ -9,11 +9,11 @@ Heya 👋 I’m Vijay Pagare—a senior software engineer, writer, and wannabe c
 
 I build stuff and create content to make internet more useful, inspiring, and fun place. I love experimenting and mostly do one shot writing. Outside tech, my interest lies in sports, spirituality, and travel.
 
-#### Linkedin Introduction:
+#### Linkedin Introduction
 
 A Senior Software Engineer with 6 years of experience building scalable, accessible, and high performing B2B SaaS applications. Adept in React, Angular, AEM, and data visualisation libraries.
 
-Proven track record of driving UI/UX enhancements, architectural overhauls, and performance optimisations across diverse industries including analytics, healthcare, and fintech. Recognized for leadership, problem-solving, and cross-functional collaboration.
+Proven track record of driving UI/UX enhancements, architectural overhauls, and performance optimisations across diverse industries including analytics, healthcare, and fintech. Recognized for leadership, problem-solving, and cross-functional collaboration. [read more]({{< ref "/work" >}})
 
 #### Contact me
 [Twitter](https://x.com/pagarevijayy) | [LinkedIn](https://www.linkedin.com/in/pagarevijayy/) | [Github](https://github.com/pagarevijayy)

@@ -1,0 +1,28 @@
+<style>
+    /*  Custom styles  */
+
+    :root {
+        --text-secondary: #555;
+        --blockquote-color: #444;
+
+    }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --text-secondary: #888;
+            --blockquote-color: #ccc;
+        }
+    }
+
+    blockquote {
+        border-left: 3px solid var(--blockquote-color);
+        color: var(--blockquote-color);
+        padding-left: 16px;
+        font-style: normal;
+        margin: 0;
+    }
+
+    .text-secondary {
+        color: var(--text-secondary);
+    }
+</style>

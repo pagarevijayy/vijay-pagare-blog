@@ -15,6 +15,8 @@ languageCode = "en-US"
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
 
+enableGitInfo = true
+
 # Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
@@ -43,10 +45,6 @@ ignoreErrors = ["error-disable-taxonomy"]
   # opengraph structured data template.
   # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
   title = "Vijay Pagare"
-
-  # This theme will, by default, inject a made-with-line at the bottom of the page.
-  # You can turn it off, but we would really appreciate if you don’t :-).
-  # hideMadeWithLine = true
 
   # By default, if you want to read more than one blog post you have to always go
   # back to the /blog page.

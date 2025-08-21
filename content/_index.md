@@ -17,7 +17,8 @@ Till then, you might wanna visit my [about section](/about)
 
 BTW, I often write and wonder about tech, web dev, personal fitness, lifestyle, and spirituality.
 
-:: > 🏄🏻‍♂️ There's no life without passion.
+:::::::::::::::::::::::::::::::::::::::::  
+| 🏄🏻‍♂️ There's no life without passion.   |  
+:::::::::::::::::::::::::::::::::::::::::
 
-
-<p style="color: #888;"> This page is still being written... |</p>
+<p style="color: #888;"> This page is still being written...</p>

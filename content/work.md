@@ -95,6 +95,7 @@ Recognized for leadership, problem-solving, and cross-functional collaboration. 
 #### Areas to Strengthen
 
 - Being hands-on with Infra/Devops stuff
+- DSA and shell scripting
 - Databases (postgres, etc.)
 - BE programming languages like python, go, rust & their ecosystems 
 

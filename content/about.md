@@ -17,7 +17,7 @@ Proven track record of driving UI/UX enhancements, architectural overhauls, and 
 
 #### Other stuff I do in life
 
-- Ride my [motorcycle](https://x.com/pagarevijayy/status/1785938768270119022), practice [kriya yoga](https://x.com/pagarevijayy/status/1935714869820412004), enjoy [krishna kirtans](https://www.youtube.com/watch?v=vqDlVxkfvRg&t=0s).
+- Ride my [motorcycle](https://x.com/pagarevijayy/status/1785938768270119022), practice [kriya](https://x.com/pagarevijayy/status/1935714869820412004), contemplate [advaita](https://www.youtube.com/watch?v=eGKFTUuJppU&t=1s), enjoy [krishna kirtans](https://www.youtube.com/watch?v=vqDlVxkfvRg&t=0s).
 - Play table tennis, go to gym, hangout with friends, and spend time with family.
 
 #### Bucket list

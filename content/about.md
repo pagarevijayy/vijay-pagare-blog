@@ -5,9 +5,9 @@ featured_image = "images/vijay-pagare-connect.png"
 date = 2025-08-07
 +++
 
-Heya 👋 I’m Vijay Pagare—a senior software engineer, writer, and wannabe creator. 
+Heya 👋 I’m Vijay Pagare—a senior software engineer, writer, and a hobbyist creator. 
 
-I build stuff and create content to make internet more useful, inspiring, and fun place. I love experimenting and mostly do one shot writing. Outside tech, my interest lies in sports, spirituality, and travel.
+I build stuff, enjoy side hustles, and create content. I love experimenting and mostly do one shot writing. Outside tech, my interest lies in sports, spirituality, and travel.
 
 #### Linkedin Introduction
 
@@ -17,12 +17,11 @@ Proven track record of driving UI/UX enhancements, architectural overhauls, and 
 
 #### Other stuff I do in life
 
-- Ride my [motorcycle](https://x.com/pagarevijayy/status/1785938768270119022), practice [kriya](https://x.com/pagarevijayy/status/1935714869820412004), contemplate [advaita](https://www.youtube.com/watch?v=eGKFTUuJppU&t=1s), enjoy [krishna kirtans](https://www.youtube.com/watch?v=vqDlVxkfvRg&t=0s).
-- Play table tennis, go to gym, hangout with friends, and spend time with family.
+Ride my [motorcycle](https://x.com/pagarevijayy/status/1785938768270119022), practice [kriya yoga](https://x.com/pagarevijayy/status/1935714869820412004), contemplate [advaita](https://www.youtube.com/watch?v=eGKFTUuJppU&t=1s) (sometimes), enjoy [krishna kirtans](https://www.youtube.com/watch?v=vqDlVxkfvRg&t=0s), get inspired by spiritualists, play table tennis, go to gym, hangout with friends, and spend time with family.
 
 #### Bucket list
 
-- [Learn Singing](https://www.youtube.com/watch?v=vw7mFNsVeY8)—*to express the glories of God.*
+- [Learn Singing](https://www.youtube.com/watch?v=vw7mFNsVeY8)—*to experience the glory of God.*
 - Visit EU, Thailand, China, and SEA countries.
 - Author a couple of books
 - ...and maybe a bunch of other stuff?

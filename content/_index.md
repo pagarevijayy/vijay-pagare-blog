@@ -4,9 +4,6 @@ description = "A home for Vijay Pagare's thoughts, insights, and learnings."
 featured_image = "images/vijay-pagare-connect.png"
 +++
 
-> "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।  
-> मा कर्मफलहेतुर्भुर्मा ते संगोऽस्त्वकर्मणि ॥"
-
 Hey visitor, welcome to my website! ✨
 
 I’m a developer and writer.
@@ -19,6 +16,9 @@ While I update this page, you might wanna visit my [about section](/about)
 BTW, I often write and wonder about tech, web dev, personal fitness, lifestyle, and spirituality.
 
 <p class="text-secondary"> This page is still being written...</p>
+
+> "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।  
+> मा कर्मफलहेतुर्भुर्मा ते संगोऽस्त्वकर्मणि ॥"
 
 :::::::::::::::::::::::::::::::::::::::::  
 | 🏄🏻‍♂️ There's no life without passion.   |  

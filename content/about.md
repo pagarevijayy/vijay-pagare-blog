@@ -12,7 +12,7 @@ date = 2025-08-07
 
 Heya 👋 I’m Vijay Pagare—a senior software engineer, writer, and a hobbyist creator. 
 
-I build stuff, enjoy side hustles, and create content. I love experimenting and mostly do one shot writing. Outside tech, my interest lies in sports, spirituality, and travel.
+I build stuff, enjoy side hustles, and create/curate content for fun. I love experimenting, and mostly do one-shot writing. Outside tech, my interest lies in sports, spirituality, and travel.
 
 #### Linkedin Introduction
 
@@ -22,14 +22,14 @@ Proven track record of driving UI/UX enhancements, architectural overhauls, and 
 
 #### Other stuff I do in life
 
-Ride my [motorcycle](https://x.com/pagarevijayy/status/1785938768270119022), practice [kriya yoga](https://x.com/pagarevijayy/status/1935714869820412004), contemplate [advaita](https://www.youtube.com/watch?v=eGKFTUuJppU&t=1s) (sometimes), enjoy [krishna kirtans](https://www.youtube.com/watch?v=vqDlVxkfvRg&t=0s), get inspired by spiritualists, play table tennis, go to gym, hangout with friends, and spend time with family.
+- Ride my [motorcycle](https://x.com/pagarevijayy/status/1785938768270119022), practice [kriya yoga](https://x.com/pagarevijayy/status/1935714869820412004), contemplate [advaita](https://www.youtube.com/watch?v=eGKFTUuJppU&t=1s), enjoy [krishna kirtans](https://www.youtube.com/watch?v=vqDlVxkfvRg&t=0s).
+- Play table tennis, go to gym, hangout with friends, and spend time with family.
 
 #### Bucket list
 
-- [Learn Singing](https://www.youtube.com/watch?v=vw7mFNsVeY8)—*to experience the glory of God.*
+- Learn [(classical) singing—*to experience the glory of God.*](https://www.youtube.com/watch?v=vw7mFNsVeY8)
 - Visit EU, Thailand, China, and SEA countries.
-- Author a couple of books
-- ...and maybe a bunch of other stuff?
+- ...and maybe do a bunch of other stuff?
 
 #### Contact me
 [Twitter](https://x.com/pagarevijayy) | [LinkedIn](https://www.linkedin.com/in/pagarevijayy/) | [Github](https://github.com/pagarevijayy)

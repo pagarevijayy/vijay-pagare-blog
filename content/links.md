@@ -10,5 +10,6 @@ slug = "links"
 1. Task tracker app - [Weekly](https://www.vijaypagare.in/app/weekly)
 2. [Support](https://www.vijaypagare.in/support)
 3. [Newsletter](https://www.vijaypagare.in/newsletter)
+4. [Projects](https://www.vijaypagare.in/projects)
 
-:) Thanks for checking out.
+:) 

@@ -17,10 +17,9 @@ slug = "projects"
 
 #### Past projects / Archive
 - [TechPro - blog & news](https://www.vijaypagare.in/app/ezcreatives)
-- [Juris Krafter](https://www.vijaypagare.in/app/juris)
-- [Artsy, the paper flowerist](https://www.vijaypagare.in/app/artsy)
-- [Calm clone](https://www.vijaypagare.in/app/calm-landing)
-- [we-the-sapiens v1](https://www.vijaypagare.in/app/wts-v1) - [social](https://www.instagram.com/wethesapiens_/)
+- [Juris Krafter;](https://www.vijaypagare.in/app/juris) [Artsy, the paper flowerist](https://www.vijaypagare.in/app/artsy)
+- [Calm clone,](https://www.vijaypagare.in/app/calm-landing) [Apple shortcuts](https://gist.github.com/pagarevijayy/c46adf4732d6f9762d928472cf9228ce)
+- [we-the-sapiens v1 -](https://www.vijaypagare.in/app/wts-v1) [social](https://www.instagram.com/wethesapiens_/)
 - [ecom,](https://www.vijaypagare.in/app/ecom)  [weather app,](https://www.vijaypagare.in/app/weather) [and a heap of others...](https://github.com/pagarevijayy?tab=repositories)
 
   

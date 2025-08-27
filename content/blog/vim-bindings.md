@@ -4,6 +4,7 @@ date = "2025-08-28T02:23:09+05:30"
 description = "Personal VIM cheat sheet. My notes from learning vim."
 slug = "vim-bindings"
 tags = ["productivity"]
+featured_image = "https://jasonmurray.org/images/vscodevimbindings.png"
 +++
 <img src="https://jasonmurray.org/images/vscodevimbindings.png">
 

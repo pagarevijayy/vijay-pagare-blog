@@ -1,0 +1,48 @@
+<div class="header-container">
+    <a href="{{ "" | relURL }}" class="title">
+        <h2>{{ .Site.Title }}</h2>
+    </a>
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode">
+        <span class="theme-toggle-icon">🌙</span>
+    </button>
+</div>
+<nav>{{- partial "nav.html" . -}}</nav>
+
+<script>
+    (function () {
+        const themeToggle = document.getElementById('theme-toggle');
+        const themeIcon = document.querySelector('.theme-toggle-icon');
+
+        // Function to set the theme and update the icon
+        function setTheme(theme) {
+            document.documentElement.setAttribute('data-theme', theme);
+            updateIcon(theme);
+            // Optionally, save the user's preference to local storage
+            localStorage.setItem('theme', theme);
+        }
+
+        // Function to update the icon based on the current theme
+        function updateIcon(theme) {
+            themeIcon.textContent = theme === 'dark' ? '☀️' : '🌙';
+        }
+
+        // Check for saved theme in local storage first
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+            setTheme(savedTheme);
+        } else {
+            // If no saved theme, detect browser's preferred color scheme
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const initialTheme = prefersDark ? 'dark' : 'light';
+            setTheme(initialTheme);
+        }
+
+        // Add event listener to the toggle button
+        themeToggle.addEventListener('click', function () {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            setTheme(newTheme);
+        });
+
+    })();
+</script>

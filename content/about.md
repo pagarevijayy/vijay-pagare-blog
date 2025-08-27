@@ -5,6 +5,11 @@ featured_image = "images/vijay-pagare-connect.png"
 date = 2025-08-07
 +++
 
+<div style="text-align:center; margin:20px 0; max-width: 150px">
+  <img src="/images/pagarevijayy-avatar.png" alt="My Avatar" 
+       style="width:150px; border-radius:50%; box-shadow:0 4px 10px rgba(0,0,0,0.15);" />
+</div>
+
 Heya 👋 I’m Vijay Pagare—a senior software engineer, writer, and a hobbyist creator. 
 
 I build stuff, enjoy side hustles, and create content. I love experimenting and mostly do one shot writing. Outside tech, my interest lies in sports, spirituality, and travel.

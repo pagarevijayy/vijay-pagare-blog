@@ -8,12 +8,12 @@ Hey visitor, welcome to my website! ✨
 
 I’m a developer and writer.
 
-This is my little corner of the internet. Here, I share my thoughts, insights, and learnings; along with a few side projects.
+This is my little corner of the internet, you can call it a digital home. Here, I share my thoughts, insights, and learnings; along with a few side projects.
 
-While I update this page, you might wanna visit my [about section](/about)
+While I update this page, you might wanna checkout my [about section](/about)
 
 
-BTW, I often write and wonder about tech, web dev, personal fitness, lifestyle, and spirituality.
+I often write and wonder about tech, web dev, personal fitness, lifestyle, and spirituality.
 
 <p class="text-secondary"> This page is still being written...</p>
 
@@ -25,3 +25,8 @@ BTW, I often write and wonder about tech, web dev, personal fitness, lifestyle, 
 :::::::::::::::::::::::::::::::::::::::::
 
 <p class="text-secondary"> Thanks for checking out :)</p>
+
+{{< callout emoji="✨" >}}
+"The only way to do great work is to love what you do."  
+— Steve Jobs
+{{< /callout >}}

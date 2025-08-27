@@ -1,0 +1,21 @@
+{{/*  
+
+  This Hugo shortcode creates a Notion-like callout box.
+  It supports an emoji icon and a text content, with full
+  light/dark theme support.
+
+  Usage:
+  {{< callout emoji="👉" >}}
+  This is the text for my callout box.
+  {{< /callout >}}  
+  
+*/}}
+
+<div class="callout-container">
+    <div class="callout-emoji">
+        {{- .Get "emoji" | safeHTML -}}
+    </div>
+    <div class="callout-content">
+        {{- .Inner | markdownify -}}
+    </div>
+</div>

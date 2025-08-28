@@ -54,16 +54,6 @@
                 closeBanner(banner.id);
             }, delay);
         });
-
-        /*  
-            // Check for previously dismissed banners
-            document.querySelectorAll('.notification-banner').forEach(function (banner) {
-                const bannerId = banner.id;
-                if (localStorage.getItem('dismissed-' + bannerId) === 'true') {
-                    banner.style.display = 'none';
-                }
-            });  
-        */
     });
 
     function closeBanner(bannerId) {
@@ -74,9 +64,6 @@
             setTimeout(function () {
                 banner.style.display = 'none';
             }, 300);
-
-            // Remember dismissal
-            // localStorage.setItem('dismissed-' + bannerId, 'true');
         }
     }
 
@@ -84,7 +71,6 @@
     function showBanner(bannerId) {
         const banner = document.getElementById(bannerId);
         if (banner) {
-            //localStorage.removeItem('dismissed-' + bannerId);
             banner.style.display = 'block';
             banner.style.opacity = '1';
             banner.style.transform = 'translateY(0)';

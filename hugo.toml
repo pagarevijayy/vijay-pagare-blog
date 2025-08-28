@@ -64,7 +64,7 @@ ignoreErrors = ["error-disable-taxonomy"]
   # Site-wide notification banner
   [params.notification]
     enabled = true
-    message = "🎉 Welcome to our updated website!"
+    message = "🎉 New! Try the [Weekly Task Tracker.](https://www.vijaypagare.in/app/weekly)"
     type = "info" # info, warning, error, success
     auto_hide = false
     auto_hide_delay = 5000 # milliseconds

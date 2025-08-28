@@ -1,0 +1,94 @@
+{{/* layouts/partials/notification-banner.html */}}
+{{ $site_banner := .Site.Params.notification }}
+{{ $page_banner := .Params.notification }}
+{{ $banner_behavior := .Site.Params.banner_behavior | default "stack" }}
+
+{{ if or $site_banner.enabled $page_banner.enabled }}
+<div id="notification-container">
+
+    {{/* Site-wide banner */}}
+    {{ if and $site_banner.enabled (or (eq $banner_behavior "stack") (not $page_banner.enabled)) }}
+    <div class="notification-banner notification-{{ $site_banner.type | default " info" }}" id="site-banner" {{ if
+        $site_banner.auto_hide }}data-auto-hide="{{ $site_banner.auto_hide_delay | default 5000 }}" {{ end }}>
+        <div class="notification-content">
+            <span class="notification-message">{{ $site_banner.message | markdownify }}</span>
+            {{ if $site_banner.show_close_button }}
+            <button class="notification-close" onclick="closeBanner('site-banner')" aria-label="Close notification">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+
+    {{/* Page-specific banner */}}
+    {{ if $page_banner.enabled }}
+    <div class="notification-banner notification-{{ $page_banner.type | default " info" }}" id="page-banner" {{ if
+        $page_banner.auto_hide }}data-auto-hide="{{ $page_banner.auto_hide_delay | default 5000 }}" {{ end }}>
+        <div class="notification-content">
+            <span class="notification-message">{{ $page_banner.message | markdownify }}</span>
+            {{ if $page_banner.show_close_button }}
+            <button class="notification-close" onclick="closeBanner('page-banner')" aria-label="Close notification">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+
+</div>
+
+<script>
+    // Notification banner JavaScript
+    document.addEventListener('DOMContentLoaded', function () {
+        // Auto-hide functionality
+        document.querySelectorAll('.notification-banner[data-auto-hide]').forEach(function (banner) {
+            const delay = parseInt(banner.getAttribute('data-auto-hide'));
+            setTimeout(function () {
+                closeBanner(banner.id);
+            }, delay);
+        });
+
+        /*  
+            // Check for previously dismissed banners
+            document.querySelectorAll('.notification-banner').forEach(function (banner) {
+                const bannerId = banner.id;
+                if (localStorage.getItem('dismissed-' + bannerId) === 'true') {
+                    banner.style.display = 'none';
+                }
+            });  
+        */
+    });
+
+    function closeBanner(bannerId) {
+        const banner = document.getElementById(bannerId);
+        if (banner) {
+            banner.style.opacity = '0';
+            banner.style.transform = 'translateY(-100%)';
+            setTimeout(function () {
+                banner.style.display = 'none';
+            }, 300);
+
+            // Remember dismissal
+            // localStorage.setItem('dismissed-' + bannerId, 'true');
+        }
+    }
+
+    // Function to show banner again (useful for testing or re-enabling)
+    function showBanner(bannerId) {
+        const banner = document.getElementById(bannerId);
+        if (banner) {
+            //localStorage.removeItem('dismissed-' + bannerId);
+            banner.style.display = 'block';
+            banner.style.opacity = '1';
+            banner.style.transform = 'translateY(0)';
+        }
+    }
+</script>
+{{ end }}

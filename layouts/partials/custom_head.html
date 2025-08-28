@@ -14,14 +14,33 @@
         --link-color: #3273dc;
         --visited-color: #8b6fcb;
         --code-background-color: #f2f2f2;
-        --code-color: #222; /* usage: code and callouts */
+        --code-color: #222;
+        /* usage: code and callouts */
         --blockquote-color: #444;
         --text-secondary: #555;
-        --hover-color: #F3F4F6; /* toggle theme hover color */
+        --hover-color: #F3F4F6;
+        /* toggle theme hover color */
         --callout-bg: #f4f4f4;
+
+        /*  Notification Banner Variables  */
+        --notification-info-bg: #e7f3ff;
+        --notification-info-border: #b3d9ff;
+        --notification-info-text: #0066cc;
+
+        --notification-success-bg: #e8f5e8;
+        --notification-success-border: #90ee90;
+        --notification-success-text: #006600;
+
+        --notification-warning-bg: #fff3cd;
+        --notification-warning-border: #ffeaa7;
+        --notification-warning-text: #856404;
+
+        --notification-error-bg: #f8d7da;
+        --notification-error-border: #f5c6cb;
+        --notification-error-text: #721c24;
     }
 
-    [data-theme="dark"]  {
+    [data-theme="dark"] {
         /*  Dark mode variables  */
         --background-color: #01242e;
         --heading-color: #eee;
@@ -29,11 +48,30 @@
         --link-color: #8cc2dd;
         --visited-color: #8b6fcb;
         --code-background-color: #000;
-        --code-color: #eee; /* usage: code and callouts */
+        --code-color: #eee;
+        /* usage: code and callouts */
         --blockquote-color: #ccc;
         --text-secondary: #888;
-        --hover-color: #1F2937;  /* toggle theme hover color */
+        --hover-color: #1F2937;
+        /* toggle theme hover color */
         --callout-bg: #0d3a4d;
+
+        /*  Notification Banner Variables  */
+        --notification-info-bg: #1a365d;
+        --notification-info-border: #2c5282;
+        --notification-info-text: #90cdf4;
+
+        --notification-success-bg: #1a2e1a;
+        --notification-success-border: #2d5a2d;
+        --notification-success-text: #68d391;
+
+        --notification-warning-bg: #2d2012;
+        --notification-warning-border: #744210;
+        --notification-warning-text: #f6e05e;
+
+        --notification-error-bg: #2d1b1f;
+        --notification-error-border: #744d57;
+        --notification-error-text: #fed7e2;
     }
 
     blockquote {
@@ -61,11 +99,12 @@
         vertical-align: top;
     }
 
-    ul, ol {
+    ul,
+    ol {
         padding-inline-start: 20px;
     }
 
-    /*  theme toggle styles  */
+    /*  Theme toggle functionality styles  */
     .header-container {
         display: flex;
         justify-content: space-between;
@@ -87,7 +126,7 @@
         min-width: 2.5rem;
         min-height: 2.5rem;
         color: var(--text-color);
-        line-height: 1; 
+        line-height: 1;
     }
 
     .theme-toggle:hover {
@@ -95,42 +134,165 @@
     }
 
     .theme-toggle-icon {
-        display: flex; /* Centers the SVG inside the span */
+        display: flex;
+        /* Centers the SVG inside the span */
         align-items: center;
         justify-content: center;
-        width: 1.2em; /* Explicitly set the size */
+        width: 1.2em;
+        /* Explicitly set the size */
         height: 1.2em;
         transition: transform 0.3s ease;
     }
 
     .theme-toggle svg {
-        display: block; /* Ensure the SVG behaves like a block element */
+        display: block;
+        /* Ensure the SVG behaves like a block element */
         width: 100%;
         height: 100%;
     }
 
-    /* Callout container styles */
+    /* Callout styles */
     .callout-container {
         display: flex;
         align-items: flex-start;
         padding: 1rem;
         margin: 1.5rem 0;
-        border-radius: 8px; 
+        border-radius: 8px;
         background-color: var(--callout-bg);
         color: var(--code-color);
     }
 
-    /* Styles for the emoji icon */
     .callout-emoji {
         font-size: 1.5rem;
-        line-height: 1; /* Ensures the emoji aligns correctly */
+        line-height: 1;
+        /* Ensures the emoji aligns correctly */
         margin-right: 0.75rem;
-        flex-shrink: 0; /* Prevents the emoji from shrinking on small screens */
+        flex-shrink: 0;
+        /* Prevents the emoji from shrinking on small screens */
     }
 
-    /* Styles for the text content */
     .callout-content {
-        flex-grow: 1; /* Allows the content to fill the remaining space */
+        flex-grow: 1;
+        /* Allows the content to fill the remaining space */
     }
 
+    /* Notification Banner Styles */
+    #notification-container {
+        position: relative;
+        z-index: 1000;
+        width: 100vw;
+        margin-left: calc(50% - 50vw);
+        margin-right: calc(50% - 50vw);
+        margin-top: -20px; /*  because body has 20px padding top */
+    }
+
+    .notification-banner {
+        width: 100%;
+        padding: 12px 0;
+        border-bottom: 1px solid;
+        transition: all 0.3s ease-in-out;
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+
+    .notification-content {
+        max-width: var(--width);
+        text-align: left;
+        margin: 0 auto;
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+    }
+
+    .notification-message {
+        flex: 1;
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .notification-message p {
+        margin: 0;
+    }
+
+    .notification-close {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 4px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.2s ease;
+        flex-shrink: 0;
+        color: inherit;
+        margin-right: 0.5rem;
+    }
+
+    .notification-close:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+
+    /* Banner Type Styles */
+    .notification-info {
+        background-color: var(--notification-info-bg);
+        border-color: var(--notification-info-border);
+        color: var(--notification-info-text);
+    }
+
+    .notification-success {
+        background-color: var(--notification-success-bg);
+        border-color: var(--notification-success-border);
+        color: var(--notification-success-text);
+    }
+
+    .notification-warning {
+        background-color: var(--notification-warning-bg);
+        border-color: var(--notification-warning-border);
+        color: var(--notification-warning-text);
+    }
+
+    .notification-error {
+        background-color: var(--notification-error-bg);
+        border-color: var(--notification-error-border);
+        color: var(--notification-error-text);
+    }
+
+    /* Close button hover states for each type */
+    .notification-info .notification-close:hover {
+        background-color: var(--notification-info-border);
+    }
+
+    .notification-success .notification-close:hover {
+        background-color: var(--notification-success-border);
+    }
+
+    .notification-warning .notification-close:hover {
+        background-color: var(--notification-warning-border);
+    }
+
+    .notification-error .notification-close:hover {
+        background-color: var(--notification-error-border);
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .notification-content {
+            padding: 0 20px;
+            gap: 12px;
+        }
+
+        .notification-message {
+            font-size: 13px;
+        }
+
+        .notification-close {
+            padding: 2px;
+        }
+    }
 </style>
+{{ partial "notification-banner.html" . }}

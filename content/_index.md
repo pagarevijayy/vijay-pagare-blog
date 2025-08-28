@@ -2,6 +2,13 @@
 title = "Vijay Pagare"
 description = "A home for Vijay Pagare's thoughts, insights, and learnings."
 featured_image = "images/vijay-pagare-connect.png"
+
+[notification]
+enabled = false
+message = "🎉 Welcome to Vijay's Digital Home."
+type = "info"
+auto_hide = false
+show_close_button = true
 +++
 
 Hey visitor, welcome to my website! ✨

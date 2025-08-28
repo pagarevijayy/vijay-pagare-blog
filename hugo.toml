@@ -58,6 +58,18 @@ ignoreErrors = ["error-disable-taxonomy"]
   # 8601](https://en.wikipedia.org/wiki/ISO_8601) format:
   # dateFormat = "2006-01-02"
 
+  # Banner behavior when both site-wide and page-wide exist
+  banner_behavior = "override" # stack, override
+
+  # Site-wide notification banner
+  [params.notification]
+    enabled = true
+    message = "🎉 Welcome to our updated website!"
+    type = "info" # info, warning, error, success
+    auto_hide = false
+    auto_hide_delay = 5000 # milliseconds
+    show_close_button = true
+
 # Configure markup highlighter to match "Bearblog" aesthetics, see
 # https://gohugo.io/configuration/markup/#highlight
 [markup]

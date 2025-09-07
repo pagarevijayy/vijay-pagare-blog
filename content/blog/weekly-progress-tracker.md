@@ -17,15 +17,15 @@ I vibe coded an entire app in almost a single prompt.
 
 So actually my motivation was to generate a notion template to track my weekly todos (i have recently developed a habit of keeping a paper on my desk and noting a few tasks for the day and knocking them off —needed something similar digitally). But notion AI did a really poor job of realising my dream, so with lots of hope, i then went to chatgpt4, and asked it to materialize my vision. It was disappointing too, I wasn't impressed by the results. 
 
-Then I wondered why would i want chatgpt to generate a notion template for me when i can directly ask an LLM model with the same prompt to generate a mini web app for me? And i wanted to explore claude, cursor and gemini-cli for a while now, so i gave a shot to claude and was pleasantly surprised! It precisely created what i wanted with custom logic and added a few beautiful aspects to it on its own which i never asked. I totally loved it! The experience was simply [delta 4 — as per kunal shah theory](tab:https://www.youtube.com/watch?app=desktop&v=avR_8NlOgsc&t=30).
+Then I wondered why would i want chatgpt to generate a notion template for me when i can directly ask an LLM model with the same prompt to generate a mini web app for me? And i wanted to explore claude, cursor and gemini-cli for a while now, so i gave a shot to claude and was pleasantly surprised! It precisely created what i wanted with custom logic and added a few beautiful aspects to it on its own which i never asked. I totally loved it! The experience was simply [delta 4 — as per kunal shah theory](https://www.youtube.com/watch?app=desktop&v=avR_8NlOgsc&t=30).
 
 The AI genie is out of the bottle. It's only a matter of time it will become as native to us as stuff from industrial & PC revolution. Like electricity, bulbs, motors, machines, laptops, mobile, and the internet.
 
 The era of personal software is here — and it's fully AI driven. AI Native?
 
-I feel, [now is the time](tab:https://x.com/pagarevijayy/status/1950118631850791224), to go all in on AI. As per [roger's curve](tab:https://b-plannow.com/en/the-rogers-curve-a-guide-to-the-diffusion-of-innovation-in-the-marketplace/), we're no longer early adopters, rather, an early majority. So, for now embrace the AI curve and keep building stuff. Like I did — [btw demo here](https://weekly.technologypro.in/). 
+I feel, [now is the time](https://x.com/pagarevijayy/status/1950118631850791224), to go all in on AI. As per [roger's curve](https://b-plannow.com/en/the-rogers-curve-a-guide-to-the-diffusion-of-innovation-in-the-marketplace/), we're no longer early adopters, rather, an early majority. So, for now embrace the AI curve and keep building stuff. Like I did — [btw demo here](https://weekly.technologypro.in/). 
 
-You can find more about the technical documentation for this project - [here on github](tab:https://github.com/pagarevijayy/weekly-work-tracker/blob/main/readme.md). 
+You can find more about the technical documentation for this project - [here on github](https://github.com/pagarevijayy/weekly-work-tracker/blob/main/readme.md). 
 
 It's open source. Because why not! 🤷🏻
 

@@ -31,9 +31,10 @@ It's open source. Because why not! 🤷🏻
 
 If you like what i'm putting out there, consider supporting me. Till then, yours truly, Vijay signing off!
 
+<img alt="weekly-work-tracker image" src="https://github.com/user-attachments/assets/f8058812-5210-4fa5-a688-a5dd46e50723" />
+
 [![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-%E2%98%95-ffdd57?style=for-the-badge)](https://pagarevijayy.gumroad.com/coffee)
 
 🔗 [Open - Weekly Work Tracker](https://weekly.technologypro.in/) | [Github Docs](https://github.com/pagarevijayy/weekly-work-tracker/blob/main/readme.md)
-
 
 

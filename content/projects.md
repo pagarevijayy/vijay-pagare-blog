@@ -6,7 +6,7 @@ slug = "projects"
 
 ### Featured Projects 
 
-1. [updating soon]
+1. ... [updating soon] 
 <!-- 2. [updating soon] -->
 
 

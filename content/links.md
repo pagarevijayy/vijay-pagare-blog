@@ -7,9 +7,11 @@ slug = "links"
 
 ### Some links to other places on this website...
 
-1. Task tracker app - [Weekly](https://www.vijaypagare.in/app/weekly)
-2. [Support](https://www.vijaypagare.in/support)
-3. [Newsletter](https://www.vijaypagare.in/newsletter)
-4. [Projects](https://www.vijaypagare.in/projects)
+1. TechPro app - [Tech News, tips & trick!](https://technologypro.in)
+2. Task tracker - [Weekly](https://weekly.technologypro.in)
+3. Image builder - [ezCreatives](https://ezcreatives.technologypro.in)
+4. [Support my digital hustles](https://www.vijaypagare.in/support)
+5. [Newsletter](https://www.vijaypagare.in/newsletter)
+6. [Projects](https://www.vijaypagare.in/projects)
 
 :) 

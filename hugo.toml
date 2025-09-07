@@ -64,10 +64,10 @@ ignoreErrors = ["error-disable-taxonomy"]
   # Site-wide notification banner
   [params.notification]
     enabled = true
-    message = "🎉 New! Try the [Weekly Task Tracker.](https://www.vijaypagare.in/app/weekly)"
+    message = "🎉 New! Try the [Weekly Task Tracker.](https://weekly.technologypro.in)"
     type = "info" # info, warning, error, success
-    auto_hide = false
-    auto_hide_delay = 5000 # milliseconds
+    auto_hide = true
+    auto_hide_delay = 10000 # milliseconds
     show_close_button = true
 
 # Configure markup highlighter to match "Bearblog" aesthetics, see

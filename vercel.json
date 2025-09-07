@@ -13,9 +13,9 @@
 
     { "source": "/resume", "destination": "https://drive.google.com/file/d/1bjBUq-cQioGBG_WsJxCNhtvKrGQieHrr/view", "permanent": false },
 
-    { "source": "/app/weekly", "destination": "https://weekly-work-tracker.vercel.app/", "permanent": true },
-    { "source": "/app/techpro", "destination": "https://techpro-app.vercel.app/", "permanent": true },
-    { "source": "/app/ezcreatives", "destination": "https://app-ezcreatives.vercel.app/", "permanent": true },
+    { "source": "/app/techpro", "destination": "https://technologypro.in", "permanent": true },
+    { "source": "/app/weekly", "destination": "https://weekly.technologypro.in", "permanent": true },
+    { "source": "/app/ezcreatives", "destination": "https://ezcreatives.technologypro.in", "permanent": true },
     { "source": "/app/ezcreatives-home", "destination": "https://ezcreatives.vercel.app/", "permanent": true },
     { "source": "/app/juris", "destination": "https://juris-krafters.vercel.app/", "permanent": true },
     { "source": "/app/artsy", "destination": "https://artsy-flowers.vercel.app/", "permanent": true },

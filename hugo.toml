@@ -63,7 +63,7 @@ ignoreErrors = ["error-disable-taxonomy"]
 
   # Site-wide notification banner
   [params.notification]
-    enabled = true
+    enabled = false
     message = "🎉 New! Try the [Weekly Task Tracker.](https://weekly.technologypro.in)"
     type = "info" # info, warning, error, success
     auto_hide = true

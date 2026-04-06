@@ -52,3 +52,8 @@ HUGO_VERSION = 0.148.2
 ## 📄 License
 
 This project is released under the MIT License.
+
+
+Extra notes - 
+
+For generating dates via terminal - `date +"%Y-%m-%dT%H:%M:%S%z" | sed 's/00$/:00/'`

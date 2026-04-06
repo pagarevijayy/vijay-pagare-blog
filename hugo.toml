@@ -80,7 +80,7 @@ ignoreErrors = ["error-disable-taxonomy"]
     codeFences = true
   [markup.goldmark]
     [markup.goldmark.renderer]
-      unsafe = true  
+      unsafe = true
 
 [menu]
   [[menu.main]]
@@ -104,6 +104,11 @@ ignoreErrors = ["error-disable-taxonomy"]
     weight = 40
 
   [[menu.main]]
+    name = "Diary"
+    url = "/diary/"
+    weight = 50
+
+  [[menu.main]]
     name = "Links"
     url = "/links/"
-    weight = 50
+    weight = 60

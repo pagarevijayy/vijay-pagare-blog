@@ -1,5 +1,5 @@
 +++
-title = "Crossed 95 wpm for the first time ever!"
+title = "Touch Typing Speed - 95 wpm!"
 slug = "crossed-95-wpm"
 date = "2025-08-07T09:40:10+05:30"
 description = "Crossed 95 wpm for the first time. Here are the 3 things i learnt..."
@@ -47,5 +47,3 @@ You can reach out to me on x/twitter [@pagarevijayy](tab:https://x.com/pagarevij
 
 Yours truly,
 Vijay - signing off!
-
-

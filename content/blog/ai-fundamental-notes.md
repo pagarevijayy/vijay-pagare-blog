@@ -1,5 +1,5 @@
 +++
-title = "AI Fundamentals Academic"
+title = "Academic AI Fundamentals"
 date = "2025-09-16T01:45:39+05:30"
 description = "Study notes for Artificial & Computational Intelligence — Fundamentals & Foundationals."
 featured_image = "images/rama-dfs-bfs.png"

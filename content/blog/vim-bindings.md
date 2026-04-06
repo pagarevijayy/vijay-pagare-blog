@@ -1,5 +1,5 @@
 +++
-title = "Vim Bindings – Cheatsheet & Notes"
+title = "Vim Cheatsheet"
 date = "2025-08-28T02:23:09+05:30"
 description = "Personal VIM cheat sheet. My notes from learning vim."
 slug = "vim-bindings"

@@ -20,7 +20,7 @@ I spend my time at the intersection of beauty and curiosity.
 
 
 
-## 🌳 This is My Digital Garden
+### 🌳 This is My Digital Garden
 My space for thinking in public, from raw logs to polished technical RFCs.
 * **[The Diary](/diary/)**: Raw technical logs and daily learning reflections.
 * **[The Blog](/blog/)**: Long-form essays on architecture and leadership.

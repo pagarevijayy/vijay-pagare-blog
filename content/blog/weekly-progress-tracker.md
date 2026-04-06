@@ -1,5 +1,5 @@
 +++
-title = "Mini project - Weekly work tracker"
+title = "Tracker - Vibe Project"
 slug = "weekly-progress-tracker"
 date = "2025-08-09T15:19:14+05:30"
 description = "Weekly progress tracker – local-first, privacy-friendly app to stay consistent, productive, and goal-oriented, with data stored in your browser."
@@ -36,5 +36,3 @@ If you like what i'm putting out there, consider supporting me. Till then, yours
 [![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-%E2%98%95-ffdd57?style=for-the-badge)](https://pagarevijayy.gumroad.com/coffee)
 
 🔗 [Open - Weekly Work Tracker](https://weekly.technologypro.in/) | [Github Docs](https://github.com/pagarevijayy/weekly-work-tracker/blob/main/readme.md)
-
-

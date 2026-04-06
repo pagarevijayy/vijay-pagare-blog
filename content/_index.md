@@ -1,39 +1,27 @@
 +++
 title = "Vijay Pagare"
-description = "A home for Vijay Pagare's thoughts, insights, and learnings."
+description = "Senior Software Engineer, M.Tech - BITS Pilani."
 featured_image = "images/vijay-pagare-connect.png"
-
-[notification]
-enabled = false
-message = "🎉 Welcome to Vijay's Digital Home."
-type = "info"
-auto_hide = false
-show_close_button = true
 +++
 
-Hey visitor, welcome to my website! ✨
+# Hi, I'm Vijay. 
 
-I’m a developer and writer.
+I am a **Senior Software Engineer** with 7 years of experience building web apps & B2B saas. Also, I'm a post graduate student at **BITS Pilani** pursuing an M.Tech in Software Engineering (Fullstack + Applied AI systems). 
 
-This is my little corner of the internet, you can call it a digital home. Here, I share my thoughts, insights, and learnings; along with a few side projects.
+I spend my time at the intersection of beauty and curiosity. 
 
-While I update this page, you might wanna checkout my [about section](/about)
+---
+
+## 🏗️ What I’m Focusing on
+
+* **M.Tech Dissertation:** Automated social media systems via **Computer Vision** and **NLP**.
+* **AI Systems:** Local LLM orchestration and workflow automation.
+* **Performance Engineering:** Scalable System Design,Data structures & Algo.
 
 
-I often write and wonder about tech, web dev, personal fitness, lifestyle, and spirituality.
 
-<p class="text-secondary"> This page is still being written...</p>
-
-> "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।  
-> मा कर्मफलहेतुर्भुर्मा ते संगोऽस्त्वकर्मणि ॥"
-
-:::::::::::::::::::::::::::::::::::::::::  
-| 🏄🏻‍♂️ There's no life without passion.   |  
-:::::::::::::::::::::::::::::::::::::::::
-
-<p class="text-secondary"> Thanks for checking out :)</p>
-
-{{< callout emoji="✨" >}}
-"The only way to do great work is to love what you do."  
-— Steve Jobs
-{{< /callout >}}
+## 🌳 This is My Digital Garden
+My space for thinking in public, from raw logs to polished technical RFCs.
+* **[The Diary](/diary/)**: Raw technical logs and daily learning reflections.
+* **[The Blog](/blog/)**: Long-form essays on architecture and leadership.
+* **[Work](/work/)**: Professional journey and systemic impact.

@@ -1,5 +1,5 @@
 +++
-title = "DSA: 1 new 3 revision problems (Sliding Window, DP, LL, Graph)"
+title = "DSA: 1 new, 3 revision problems (Sliding Window, DP, LL, Graph)"
 date = "2026-04-07T23:38:42+05:30"
 slug = "dsa-daily-log-2026-04-07"
 description = "A daily progress log covering problem-solving insights across Sliding Window, Dynamic Programming, Linked Lists, and Graphs."

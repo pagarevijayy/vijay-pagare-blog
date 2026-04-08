@@ -18,7 +18,7 @@
         /* usage: code and callouts */
         --blockquote-color: #444;
         --text-secondary: #555;
-        --hover-color: #F3F4F6;
+        --hover-color: #f3f4f6;
         /* toggle theme hover color */
         --callout-bg: #f4f4f4;
 
@@ -52,7 +52,7 @@
         /* usage: code and callouts */
         --blockquote-color: #ccc;
         --text-secondary: #888;
-        --hover-color: #1F2937;
+        --hover-color: #1f2937;
         /* toggle theme hover color */
         --callout-bg: #0d3a4d;
 
@@ -195,7 +195,6 @@
         opacity: 1;
     }
 
-
     .notification-content {
         max-width: var(--width);
         text-align: left;
@@ -235,7 +234,6 @@
     .notification-close:hover {
         background-color: rgba(0, 0, 0, 0.1);
     }
-
 
     /* Banner Type Styles */
     .notification-info {
@@ -295,4 +293,5 @@
         }
     }
 </style>
-{{ partial "notification-banner.html" . }}
+{{ partial "notification-banner.html" . }} {{ if .Params.math }}{{ partial
+"math.html" . }}{{ end }}

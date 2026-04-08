@@ -4,7 +4,7 @@ date = "2026-04-06T16:27:00+05:30"
 slug = "design-url-shortener"
 description = "Deep dive into Base62, KGS, and Quorum consistency for a global URL shortening service."
 featured_image = "images/url-shortener-banner.png"
-tags = ["systemDesign", "study"]
+tags = ["systemDesign", "Engineering"]
 +++
 
 Started learning system design and architecture seriously. I'll be posting daily notes on whatever i learn about the subject going forward. Here's the first one–enjoy!

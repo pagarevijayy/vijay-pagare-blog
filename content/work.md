@@ -1,7 +1,6 @@
 +++
 description = "Snapshot of Vijay Pagare's Professional Summary"
 title = 'Vijay Pagare - Work'
-tags = ["resume", "work"]
 slug = "work"
 +++
 

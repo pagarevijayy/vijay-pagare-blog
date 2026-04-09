@@ -1,6 +1,5 @@
 +++
 date = '2026-04-08T20:40:39+05:30'
-draft = true
 title = 'Design: Activity Feed'
 featured_image = "images/ccc-banner.png"
 tags= ["SystemDesign", "Engineering"]

@@ -61,6 +61,8 @@ ignoreErrors = ["error-disable-taxonomy"]
   # Banner behavior when both site-wide and page-wide exist
   banner_behavior = "override" # stack, override
 
+  math = true
+
   # Site-wide notification banner
   [params.notification]
     enabled = false

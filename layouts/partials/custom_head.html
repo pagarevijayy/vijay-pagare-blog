@@ -293,5 +293,5 @@
         }
     }
 </style>
-{{ partial "notification-banner.html" . }} {{ if .Params.math }}{{ partial
-"math.html" . }}{{ end }}
+{{ partial "notification-banner.html" . }} {{ if or .Params.math (eq
+.Site.Params.math true) }} {{ partial "math.html" . }} {{ end }}

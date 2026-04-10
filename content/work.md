@@ -6,15 +6,9 @@ slug = "work"
 
 **Senior Frontend Engineer → Building toward AI-driven systems**
 
----
-
-### Persona
-
-* Senior Frontend Engineer | Product Engineer
-* Systems thinker with strong execution bias
-* Known for taking ideas from 0 → production, fast
-
----
+{{< details summary="Persona" >}}
+Senior Frontend Engineer | Product Engineer
+{{< /details>}}
 
 {{< details summary="Professional Summary" >}}
 

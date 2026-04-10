@@ -1,6 +1,6 @@
 +++
 date = '2026-04-09T20:18:55+05:30'
-title = 'DSA - 1 new, 3 revision (Matrix Math, DFS, Sliding Window, Binary Search)'
+title = 'DSA - 1 new, 3 revision (Matrix, DFS, Sliding Window, Binary Search)'
 featured_image = "images/ccc-banner.png"
 tags = ["leetcode", "dsa"]
 +++

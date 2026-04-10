@@ -5,6 +5,9 @@ featured_image = "images/ccc-banner.png"
 tags = ["SystemDesign", "Engineering"]
 +++
 
+EDIT (10/4/2026) – Shoutout – https://paperdraw.dev (System Design w/ simulations)
+
+
 System Design ain't about developing features or writing code, it's about managing trade-offs between speed, reliability, and cost. Below is the "index" of topics required to navigate top-tier architecture discussions.
 
 ## 1. The Storage Layer: Beyond CRUD

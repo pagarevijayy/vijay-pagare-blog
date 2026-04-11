@@ -3,7 +3,7 @@ date = '2026-04-08T21:02:17+05:30'
 title = "DSA: 1 new, 2 revision  (DP, Backtracking, Graph)"
 slug = "dsa-daily-log-2026-04-08"
 featured_image = "images/ccc-banner.png"
-tags = ["dsa", "leetcode", "study"]
+tags = ["dsa", "leetcode"]
 math = true
 description = "Reflections on Longest Increasing Subsequence, Combination Sum, and the tricky edge cases of Alien Dictionary."
 +++

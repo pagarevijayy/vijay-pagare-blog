@@ -4,7 +4,7 @@ date = "2026-04-07T23:38:42+05:30"
 slug = "dsa-daily-log-2026-04-07"
 description = "A daily progress log covering problem-solving insights across Sliding Window, Dynamic Programming, Linked Lists, and Graphs."
 featured_image = "images/ccc-banner.png"
-tags = ["dsa", "leetcode", "study"]
+tags = ["dsa", "leetcode"]
 +++
 
 Today was about strengthening the foundations and reflecting upon the mastery strategy. While the original plan was two new problems daily, the reality of high-level prep is teaching me that **revision and depth** often outweigh raw volume. 

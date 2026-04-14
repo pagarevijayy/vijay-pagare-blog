@@ -2,7 +2,7 @@
 title = "For vs. While: Choosing Your Weapon in DSA"
 date = "2026-04-14T22:58:45+05:30"
 description = "Learn when to use 'for' vs 'while' loops in DSA to avoid 'logic friction' and write cleaner, stage-based code."
-
+slug="for-vs-while-loop"
 tags = ["dsa", "leetcode", "engineering"]
 +++
 

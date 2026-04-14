@@ -1,6 +1,6 @@
 # Base URL used when generating links to your pages
 # Set to the URL for your site
-baseURL = "/"
+baseURL = "https://www.vijaypagare.in/"
 canonifyURLs = false
 relativeURLs = true
 
@@ -21,7 +21,8 @@ enableGitInfo = true
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 [permalinks]
-  blog = "/:slug/"
+  blog = "/blog/:slug/"
+  diary = "/diary/:slug/"
   tags = "/blog/:slug"
 
 [params]

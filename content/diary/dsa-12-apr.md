@@ -2,7 +2,6 @@
 date = '2026-04-12T11:18:32+05:30'
 title = 'DSA - 1 new (Matrix Simulation)'
 description = 'Solved Spiral Matrix using simulation approach; lesson on trusting asymptotically optimal solutions over overthinking.'
-featured_image = "images/ccc-banner.png"
 tags = ["leetcode", "dsa"]
 +++
 

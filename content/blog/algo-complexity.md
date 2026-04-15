@@ -1,7 +1,7 @@
 ---
 title: "Brute Force Complexity"
 date: 2026-04-15
-draft: false
+featured_image: "images/dsa.png"
 tags: ["DSA", "Engineering"]
 description: "A guide to derive time complexity"
 ---

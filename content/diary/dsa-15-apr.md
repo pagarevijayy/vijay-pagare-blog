@@ -3,6 +3,7 @@ date = '2026-04-15T20:55:26+05:30'
 title = 'DSA - 2 new (DFS Pattern, Recursion to DP Insight)'
 description = 'Subtree matching using DFS serialization and recursive exploration for grid paths; key DP learning gap identified.'
 tags = ["leetcode", "dsa"]
+featured_image = "images/dsa.png"
 +++
 ---
 

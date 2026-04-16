@@ -18,3 +18,5 @@ featured_image = "images/dsa.png"
 **Insight** — brute force = DFS on grid (only right & down), total paths = paths(right) + paths(down); then optimise using DP (memoization / tabulation) 
 
 **Comment** - Could not solve. Hesitated to explore full recursion tree. Pattern was known but not applied. Need to reinforce habit: recursion → memoization → tabulation (Aditya Verma DP approach).
+
+**Learning** - Recursion (DFS) for finding path in 2D matrix, Loops (for) for filling grid.

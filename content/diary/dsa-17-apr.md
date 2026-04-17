@@ -4,6 +4,7 @@ title = 'DSA - 2 new (DP Formulation, Union-Find Revisit)'
 description = 'Coin Change using bottom-up DP formulation and revisiting Union-Find for connected components; uncovered JS push() return gotcha.'
 tags = ["leetcode", "dsa"]
 featured_image = "images/dsa.png"
+slug = "2026-04-17-coin-change-union-find"
 +++
 ---
 

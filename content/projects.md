@@ -2,6 +2,7 @@
 description = "List of personal projects"
 title = 'Projects'
 slug = "projects"
+robots = "noindex, nofollow"
 +++
 
 ### Featured Projects 

@@ -1,7 +1,5 @@
 +++
 title = "Vijay Pagare's Diary"
-description = "Daily learning and other stuff."
+description = "Raw technical logs and dialy learning reflections."
 featured_image = "images/vijay-pagare-connect.png"
 +++
-
-Yo, wassup!
